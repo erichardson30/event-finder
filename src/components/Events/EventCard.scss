@@ -1,0 +1,50 @@
+@import '../../styles/_variables';
+
+.event {
+  margin: 10px 20px;
+  width: 400px;
+  text-align: center;
+  height: auto;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px grey;
+  transition: box-shadow 0.6s ease-out;
+  box-shadow: 0.8px 0.9px 3px grey;
+  background-color: $accent-color;
+  border-radius: 5px;
+  &:hover {
+    box-shadow: 1px 8px 20px grey;
+    transition: box-shadow 0.6s ease-in;
+  }
+  .event-img {
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+  }
+  .event-details {
+    padding: 10px 20px;
+    height: 300px;
+    .description {
+      max-height: 120px;
+      overflow: scroll;
+      white-space: wrap;
+      padding: 20px;
+    }
+    .date {
+      font-size: 16px;
+    }
+    .header {
+      font-size: 22px;
+      width: 100%;
+      border-bottom: 1px solid $default-color;
+      margin-bottom: 10px;
+      padding: 0 0 10px 0;
+    }
+    .footer {
+      border-top: 1px solid $default-color;
+      width: 100%;
+      .more-info {
+        color: $base-color;
+      }
+    }
+  }
+}

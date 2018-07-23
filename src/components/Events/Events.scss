@@ -1,0 +1,25 @@
+@import '../../styles/_variables';
+
+.Events {
+  .Events-header {
+    width: 85%;
+    margin: 30px auto 0;
+    color: $base-color;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    .Events-location {
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  .Events-event-container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}

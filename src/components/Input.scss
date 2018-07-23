@@ -1,0 +1,18 @@
+@import '../styles/_variables';
+
+.input-field {
+  width: 350px;
+  padding: 15px 0;
+  background: $background-color;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+  text-indent: 12px;
+  font-size: 16px;
+  &:focus {
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+      0 1px 1px rgba(255, 255, 255, 0.2);
+  }
+}

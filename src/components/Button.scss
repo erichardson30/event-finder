@@ -1,0 +1,24 @@
+@import '../styles/_variables';
+.btn {
+  background-color: $secondary-color;
+  border-radius: 5px;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  margin: 0 10px;
+  box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.2),
+    1px 1px 1px rgba(255, 255, 255, 0.2);
+  &:hover {
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+      0 1px 1px rgba(255, 255, 255, 0.2);
+  }
+  &:disabled {
+    background-color: $secondary-color-faded;
+    cursor: default;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
