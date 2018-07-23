@@ -10,7 +10,7 @@ import Events from '../components/Events/Events'
 
 const initialState = {
   location: '',
-  loading: true,
+  loading: false,
   events: [],
   pages: 0,
   totalCount: 0,
@@ -43,7 +43,6 @@ class App extends Component {
           .then(res => {
             if (res.data.error) {
               console.log('Error getting users location')
-              this.setState({ loading: false })
             } else {
               const city = res.data.city
               const state = res.data.region_name
