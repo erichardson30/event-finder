@@ -3,7 +3,7 @@ import Button from './Button'
 import './Footer.css'
 
 const Footer = ({ currentPage, getEvents, pages, location }) => (
-  <div className="footer">
+  <div className="Footer">
     <Button
       type="button"
       text="Previous"

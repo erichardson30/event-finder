@@ -4,10 +4,10 @@ import Button from './Button'
 import './Header.css'
 
 const Header = ({ onFormSubmit }) => (
-  <div className="App-header">
-    <div className="App-event-search">
-      <h1 className="App-title">Welcome to Event Finder</h1>
-      <form className="App-search" onSubmit={onFormSubmit}>
+  <div className="Header">
+    <div className="Header-event-search">
+      <h1 className="Header-title">Welcome to Event Finder</h1>
+      <form className="Header-search" onSubmit={onFormSubmit}>
         <Input
           type="text"
           name="searchLocation"

@@ -1,6 +1,6 @@
 @import '../styles/_variables';
 
-.App-header {
+.Header-header {
   height: 30rem;
   background-image: url('../img/concert.jpg');
   background-position: center;
@@ -8,7 +8,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  .App-event-search {
+  .Header-event-search {
     border-radius: 3px;
     align-self: flex-end;
     background-color: $default-color-faded;
