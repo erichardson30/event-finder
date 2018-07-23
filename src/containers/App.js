@@ -36,7 +36,7 @@ class App extends Component {
         // api to pull back city & state based on users IP address
         axios
           .get(
-            `http://api.ipstack.com/${IP}?access_key=${
+            `https://api.ipstack.com/${IP}?access_key=${
               process.env.REACT_APP_IPSTACK_KEY
             }`
           )
