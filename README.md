@@ -19,3 +19,14 @@ Basic folder structure is outlined utilizing the container/components architectu
 - [Eventbrite](https://www.eventbrite.com/developer/v3/api_overview/) - Fetch events and event details
 - [ipify](https://www.ipify.org/) - Fetch users IP address
 - [ipstack](https://ipstack.com/documentation) - Fetch users location based on IP address
+
+## Running application
+
+To run the application please do the following:
+
+- `git clone https://github.com/erichardson30/event-finder.git`
+- `cd event-finder`
+- `npm install`
+- `npm start`
+
+In order for the application to function, you will need API keys for Eventbrite and ipstack. Once the keys are obtained, they need to be set as environment variables.
